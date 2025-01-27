@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|solutionrelative:financenowproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|solutionrelative:financenowproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\financenowproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|solutionrelative:financenowproject\\financenowproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|solutionrelative:financenowproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNowProject.csproj|solutionrelative:financenowproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 278,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceNowProject\\Program.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
+              "RelativeToolTip": "FinanceNowProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T17:40:43.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FinanceNowProject.http",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
+              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNowProject.http",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
+              "RelativeToolTip": "FinanceNowProject\\FinanceNowProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-27T17:40:34.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
+              "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
+              "RelativeToolTip": "FinanceNowProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:40:20.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
+              "RelativeToolTip": "FinanceNowProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:40:16.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FinanceNowProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FinanceNowProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:39:53.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
