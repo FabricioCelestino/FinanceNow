@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinanceNow.Modelos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b33d102a54dc003ed2f1d5458a94362279ad8ac8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aacc9eaedf853e6f6885eccace0e6328278a5be7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinanceNow.Modelos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinanceNow.Modelos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
