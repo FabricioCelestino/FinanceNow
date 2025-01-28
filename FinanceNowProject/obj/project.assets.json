@@ -81,9 +81,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.csproj",
-      "projectName": "FinanceNowProject",
-      "projectPath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.csproj",
+      "projectUniqueName": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
+      "projectName": "FinanceNow.API",
+      "projectPath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
       "packagesPath": "C:\\Users\\fabri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\obj\\",
       "projectStyle": "PackageReference",
