@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\financenow.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\financenow.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +78,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FinanceNow.Modelos",
+              "DocumentIndex": 0,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\DataBase\\Context.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Data\\DataBase\\Context.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\DataBase\\Context.cs",
+              "RelativeToolTip": "FinanceNow.Data\\DataBase\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T01:53:31.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinanceNow.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\FinanceNow.Data.csproj",
+              "RelativeDocumentMoniker": "FinanceNow.Data\\FinanceNow.Data.csproj",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\FinanceNow.Data.csproj",
+              "RelativeToolTip": "FinanceNow.Data\\FinanceNow.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T01:51:10.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinanceNow.Modelos.csproj",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
               "RelativeDocumentMoniker": "FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
               "RelativeToolTip": "FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T01:43:25.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T01:43:25.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Mes.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Mes.cs",
               "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Mes.cs",
@@ -91,12 +124,11 @@
               "RelativeToolTip": "FinanceNow.Modelos\\Models\\Mes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:28:41.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T01:28:41.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Categoria.cs",
@@ -104,12 +136,11 @@
               "RelativeToolTip": "FinanceNow.Modelos\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:26:39.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T01:26:39.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TipoDeTransacao.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
               "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
@@ -121,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Transacao.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Transacao.cs",
               "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Transacao.cs",
@@ -129,12 +160,11 @@
               "RelativeToolTip": "FinanceNow.Modelos\\Models\\Transacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:07:37.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T01:07:37.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "FinanceNow.API.csproj",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
               "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNow.API.csproj",
@@ -142,24 +172,22 @@
               "RelativeToolTip": "FinanceNowProject\\FinanceNow.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T01:03:59.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T01:03:59.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FinanceNow.API",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
               "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNow.API.csproj",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
               "RelativeToolTip": "FinanceNowProject\\FinanceNow.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T01:02:43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T01:02:43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
               "RelativeDocumentMoniker": "FinanceNowProject\\Program.cs",
@@ -171,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FinanceNowProject.http",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
               "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNowProject.http",
@@ -183,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
               "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.json",
@@ -195,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
               "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.Development.json",
@@ -207,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FinanceNowProject\\Properties\\launchSettings.json",
