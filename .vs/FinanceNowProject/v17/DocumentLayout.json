@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\financenow.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\financenow.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\dtos\\transacaodtos\\createtransacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\dtos\\transacaodtos\\createtransacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\models\\mes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\models\\mes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\financenow.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\financenow.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\controllers\\transacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\controllers\\transacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\models\\enums\\tipodetransacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\models\\enums\\tipodetransacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\financenow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\financenow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250130034027_Excluindo a tabela Mes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinanceNow.Data\\Migrations\\20250130034027_Excluindo a tabela Mes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\financenow.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\financenow.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\financenow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\financenow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\financenowproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -51,12 +51,41 @@
       "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\financenow.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\financenow.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\migrations\\contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\migrations\\contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\migrations\\20250128034246_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\migrations\\20250128034246_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\migrations\\20250128034246_initial migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\migrations\\20250128034246_initial migration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabri\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabri\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.1\\PACKAGE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabri\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\buildTransitive\\net8.0\\Microsoft.EntityFrameworkCore.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.data\\financenow.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{982C743F-24BA-4F3A-8449-2713D3DC0732}|FinanceNow.Data\\FinanceNow.Data.csproj|solutionrelative:financenow.data\\financenow.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenowproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}|FinanceNowProject\\FinanceNow.API.csproj|solutionrelative:financenowproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|c:\\users\\fabri\\source\\repos\\financenowproject\\financenow.modelos\\financenow.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}|FinanceNow.Modelos\\FinanceNow.Modelos.csproj|solutionrelative:financenow.modelos\\financenow.modelos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +95,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,20 +107,266 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTransacaoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\DTOs\\TransacaoDTOs\\CreateTransacaoDTO.cs",
+              "RelativeDocumentMoniker": "FinanceNowProject\\DTOs\\TransacaoDTOs\\CreateTransacaoDTO.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\DTOs\\TransacaoDTOs\\CreateTransacaoDTO.cs",
+              "RelativeToolTip": "FinanceNowProject\\DTOs\\TransacaoDTOs\\CreateTransacaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:49:00.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Transacao.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Transacao.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Transacao.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Transacao.cs",
+              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Transacao.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T01:07:37.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FinanceNowProject.http",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
+              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNowProject.http",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
+              "RelativeToolTip": "FinanceNowProject\\FinanceNowProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-27T17:40:34.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceNowProject\\Program.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
+              "RelativeToolTip": "FinanceNowProject\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAApwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T17:40:43.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoDeTransacao.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
+              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T01:22:04.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Controllers\\TransacoesController.cs",
+              "RelativeDocumentMoniker": "FinanceNowProject\\Controllers\\TransacoesController.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Controllers\\TransacoesController.cs",
+              "RelativeToolTip": "FinanceNowProject\\Controllers\\TransacoesController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T04:31:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Categoria.cs",
+              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T01:26:39.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Context.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\DataBase\\Context.cs",
               "RelativeDocumentMoniker": "FinanceNow.Data\\DataBase\\Context.cs",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\DataBase\\Context.cs",
               "RelativeToolTip": "FinanceNow.Data\\DataBase\\Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T01:53:31.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "FinanceNow.API",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
+              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNow.API.csproj",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
+              "RelativeToolTip": "FinanceNowProject\\FinanceNow.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T01:02:43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinanceNow.API.csproj",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
+              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNow.API.csproj",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
+              "RelativeToolTip": "FinanceNowProject\\FinanceNow.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T01:03:59.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250130034027_Excluindo a tabela Mes.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250130034027_Excluindo a tabela Mes.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Data\\Migrations\\20250130034027_Excluindo a tabela Mes.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250130034027_Excluindo a tabela Mes.cs",
+              "RelativeToolTip": "FinanceNow.Data\\Migrations\\20250130034027_Excluindo a tabela Mes.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:40:27.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
+              "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
+              "RelativeToolTip": "FinanceNowProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:40:20.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FinanceNowProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FinanceNowProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:39:53.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250128034246_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.cs",
+              "RelativeToolTip": "FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:42:46.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.EntityFrameworkCore.props",
+              "DocumentMoniker": "C:\\Users\\fabri\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\buildTransitive\\net8.0\\Microsoft.EntityFrameworkCore.props",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\buildTransitive\\net8.0\\Microsoft.EntityFrameworkCore.props",
+              "ToolTip": "C:\\Users\\fabri\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\buildTransitive\\net8.0\\Microsoft.EntityFrameworkCore.props",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\buildTransitive\\net8.0\\Microsoft.EntityFrameworkCore.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-28T03:51:50.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PACKAGE.md",
+              "DocumentMoniker": "C:\\Users\\fabri\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.1\\PACKAGE.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.1\\PACKAGE.md",
+              "ToolTip": "C:\\Users\\fabri\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.1\\PACKAGE.md",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.1\\PACKAGE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-28T03:58:59.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\ContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Data\\Migrations\\ContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\ContextModelSnapshot.cs",
+              "RelativeToolTip": "FinanceNow.Data\\Migrations\\ContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T04:00:36.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\fabri\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\README.md",
+              "ToolTip": "C:\\Users\\fabri\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\README.md",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-28T03:59:17.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250128034246_Initial Migration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.Designer.cs",
+              "RelativeDocumentMoniker": "FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.Designer.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.Designer.cs",
+              "RelativeToolTip": "FinanceNow.Data\\Migrations\\20250128034246_Initial Migration.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T04:01:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
+              "RelativeToolTip": "FinanceNowProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:40:16.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FinanceNow.Data.csproj",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Data\\FinanceNow.Data.csproj",
               "RelativeDocumentMoniker": "FinanceNow.Data\\FinanceNow.Data.csproj",
@@ -104,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "FinanceNow.Modelos.csproj",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
               "RelativeDocumentMoniker": "FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
@@ -112,138 +387,8 @@
               "RelativeToolTip": "FinanceNow.Modelos\\FinanceNow.Modelos.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T01:43:25.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mes.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Mes.cs",
-              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Mes.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Mes.cs",
-              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Mes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:28:41.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Categoria.cs",
-              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:26:39.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TipoDeTransacao.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
-              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
-              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Enums\\TipoDeTransacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:22:04.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Transacao.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Transacao.cs",
-              "RelativeDocumentMoniker": "FinanceNow.Modelos\\Models\\Transacao.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Modelos\\Models\\Transacao.cs",
-              "RelativeToolTip": "FinanceNow.Modelos\\Models\\Transacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T01:07:37.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FinanceNow.API.csproj",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
-              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNow.API.csproj",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
-              "RelativeToolTip": "FinanceNowProject\\FinanceNow.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T01:03:59.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FinanceNow.API",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
-              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNow.API.csproj",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNow.API.csproj",
-              "RelativeToolTip": "FinanceNowProject\\FinanceNow.API.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T01:02:43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
-              "RelativeDocumentMoniker": "FinanceNowProject\\Program.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Program.cs",
-              "RelativeToolTip": "FinanceNowProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T17:40:43.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FinanceNowProject.http",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
-              "RelativeDocumentMoniker": "FinanceNowProject\\FinanceNowProject.http",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\FinanceNowProject.http",
-              "RelativeToolTip": "FinanceNowProject\\FinanceNowProject.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-27T17:40:34.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
-              "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.json",
-              "RelativeToolTip": "FinanceNowProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-27T17:40:20.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "FinanceNowProject\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\appsettings.Development.json",
-              "RelativeToolTip": "FinanceNowProject\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-27T17:40:16.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "FinanceNowProject\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNowProject\\Properties\\launchSettings.json",
-              "RelativeToolTip": "FinanceNowProject\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-27T17:39:53.844Z"
+              "WhenOpened": "2025-01-28T01:43:25.118Z",
+              "EditorCaption": ""
             }
           ]
         }

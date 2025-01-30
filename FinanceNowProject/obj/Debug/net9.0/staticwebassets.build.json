@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "EdlFvECxMtS5GaBTizM4v08EbkCsoyWbzEF6WCPJ8nQ=",
-  "Source": "FinanceNowProject",
-  "BasePath": "_content/FinanceNowProject",
+  "Hash": "riH9iY3iPS/ekiBj5y6Pbguk4JxELCcswK2fq1uz1mU=",
+  "Source": "FinanceNow.API",
+  "BasePath": "_content/FinanceNow.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

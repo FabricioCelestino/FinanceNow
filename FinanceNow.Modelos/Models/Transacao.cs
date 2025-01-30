@@ -1,20 +1,25 @@
 ﻿using FinanceNow.Modelos.Models.Enums;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinanceNow.Modelos.Models
 {
-    public class Transacao(int id, string descricao, TipoDeTransacao tipo, double valor, DateTime dataDeVencimento, int categoriaId, int medId)
+    public class Transacao()
     {
-        public int Id { get; set; } = id;
-        public string Descricao { get; set; } = descricao;
-        public TipoDeTransacao Tipo { get; set; } = tipo;
-        public double Valor { get; set; } = valor;
-        public DateTime DataDeVencimento { get; set; } = dataDeVencimento;
+       
+        [Key]
+        public int Id { get; set; }
+        public string Descricao { get; set; } 
+        public TipoDeTransacao Tipo { get; set; }
+        public double Valor { get; set; } 
+        public DateOnly DataDeVencimento { get; set; }
 
         [ForeignKey(nameof(Categoria))]
-        public int CategoriaId { get; set; } = categoriaId;
+        public int CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
 
-        [ForeignKey(nameof(Mes))]
-        public int MedId { get; set; } = medId;
+       
+
+
     }
 }

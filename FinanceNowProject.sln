@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceNow.API", "FinanceNowProject\FinanceNow.API.csproj", "{4F60F94D-AF0E-46C0-94C6-D5CE72F80764}"
+	ProjectSection(ProjectDependencies) = postProject
+		{982C743F-24BA-4F3A-8449-2713D3DC0732} = {982C743F-24BA-4F3A-8449-2713D3DC0732}
+		{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A} = {C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceNow.Modelos", "FinanceNow.Modelos\FinanceNow.Modelos.csproj", "{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}"
 EndProject

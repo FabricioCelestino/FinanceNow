@@ -9,6 +9,6 @@ namespace FinanceNow.Modelos.Models
         public string Name { get; set; } = name;
         public TipoDeTransacao Tipo { get; set; } = tipo;
 
-        public ICollection<Transacao>? Transacoes{ get; set; }
+        public virtual ICollection<Transacao>? Transacoes{ get; set; }
     }
 }
