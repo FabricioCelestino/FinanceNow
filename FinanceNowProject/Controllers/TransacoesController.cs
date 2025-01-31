@@ -10,15 +10,10 @@ using FinanceNow.API.DTOs.TransacaoDTOs;
 namespace FinanceNow.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    public class TransacoesController : ControllerBase
+    [Route("Api/[controller]")]
+    public class TransacoesController(Context context) : ControllerBase
     {
-        private readonly Context _context;
-
-        public TransacoesController(Context context)
-        {
-            _context = context;
-        }
+        private readonly Context _context = context;
 
         [HttpGet]
         public async Task<IActionResult> Index()
@@ -72,6 +67,56 @@ namespace FinanceNow.API.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(Details), new {id = transacao.Id}, transacao); 
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Editar(int? id, [FromBody] CreateTransacaoDTO transacaoDTO)
+        {
+            if (id == null)
+            {
+                return BadRequest();
+            }
+
+            var transacao = await _context.Transacoes.FindAsync(id);
+
+            if (transacao == null) 
+            {
+                return NotFound("Transação não encontrada");
+            }
+
+            transacao.Descricao = transacaoDTO.Descricao;
+            transacao.Tipo = transacaoDTO.Tipo;
+            transacao.DataDeVencimento = transacaoDTO.DataDeVencimento;
+            transacao.CategoriaId = transacaoDTO.CategoriaId;
+            transacao.Valor = transacaoDTO.Valor;
+
+            _context.Transacoes.Update(transacao);
+            await _context.SaveChangesAsync();
+
+            return Ok(transacao);
+
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletarTransacao(int? id)
+        {
+            if (id == null)
+            {
+                return BadRequest();
+            }
+
+            var transacao = await _context.Transacoes.FindAsync(id);
+
+            if (transacao == null)
+            {
+                return NotFound("Transação não encontrada");
+            }
+
+            _context.Transacoes.Remove(transacao);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+
         }
 
     }

@@ -2,7 +2,7 @@
   {
     "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
     "Method": "Index",
-    "RelativePath": "api/Transacoes",
+    "RelativePath": "Api/Transacoes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
     "Method": "Create",
-    "RelativePath": "api/Transacoes",
+    "RelativePath": "Api/Transacoes",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,8 +28,45 @@
   {
     "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
     "Method": "Details",
-    "RelativePath": "api/Transacoes/{id}",
+    "RelativePath": "Api/Transacoes/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
+    "Method": "Editar",
+    "RelativePath": "Api/Transacoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "transacaoDTO",
+        "Type": "FinanceNow.API.DTOs.TransacaoDTOs.CreateTransacaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
+    "Method": "DeletarTransacao",
+    "RelativePath": "Api/Transacoes/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
