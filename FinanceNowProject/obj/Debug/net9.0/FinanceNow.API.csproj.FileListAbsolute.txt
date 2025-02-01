@@ -280,3 +280,8 @@ C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0
 C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\bin\Debug\net9.0\FinanceNow.API.xml
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNowProject\obj\Debug\net9.0\FinanceNow.API.xml

@@ -1,12 +1,18 @@
 [
   {
-    "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
-    "Method": "Index",
-    "RelativePath": "Api/Transacoes",
-    "HttpMethod": "GET",
+    "ContainingType": "FinanceNow.API.Controllers.CategoriaController",
+    "Method": "Create",
+    "RelativePath": "Api/Categoria",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "categoriaDTO",
+        "Type": "FinanceNow.API.DTOs.CategoriaDTOs.CreateCategoriaDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -20,6 +26,32 @@
       {
         "Name": "transacaoDTO",
         "Type": "FinanceNow.API.DTOs.TransacaoDTOs.CreateTransacaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceNow.API.Controllers.TransacoesController",
+    "Method": "Index",
+    "RelativePath": "Api/Transacoes/{ano}/{mes}/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mes",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -56,7 +88,7 @@
       },
       {
         "Name": "transacaoDTO",
-        "Type": "FinanceNow.API.DTOs.TransacaoDTOs.CreateTransacaoDTO",
+        "Type": "FinanceNow.API.DTOs.TransacaoDTOs.UpdateTransacaoDTO",
         "IsRequired": true
       }
     ],

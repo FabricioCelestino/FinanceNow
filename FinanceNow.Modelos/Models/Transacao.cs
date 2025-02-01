@@ -16,7 +16,7 @@ namespace FinanceNow.Modelos.Models
 
         [ForeignKey(nameof(Categoria))]
         public int CategoriaId { get; set; }
-        public Categoria Categoria { get; set; }
+        public virtual Categoria Categoria { get; set; }
 
        
 

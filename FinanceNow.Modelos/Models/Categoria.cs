@@ -3,11 +3,11 @@
 
 namespace FinanceNow.Modelos.Models
 {
-    public class Categoria(int id, string name, TipoDeTransacao tipo)
+    public class Categoria()
     {
-        public int Id { get; set; } = id;
-        public string Name { get; set; } = name;
-        public TipoDeTransacao Tipo { get; set; } = tipo;
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public TipoDeTransacao Tipo { get; set; } 
 
         public virtual ICollection<Transacao>? Transacoes{ get; set; }
     }

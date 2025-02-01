@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinanceNow.API</name>
+    </assembly>
+    <members>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.Create(FinanceNow.API.DTOs.CategoriaDTOs.CreateCategoriaDTO)">
+            <summary>
+            Adicionar categoria ao banco de dados
+            </summary>
+            <param name="categoriaDTO"></param>
+            <returns>IactionResult</returns>
+            <Response code="201">Caso a insersão seja feita com sucesso</Response>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacoesController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Detalhes da transação
+            </summary>
+            <param name="id"></param>
+            <returns>IActionResult</returns>
+            <Response code="200">Caso a insersão seja feita com sucesso</Response>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacoesController.Create(FinanceNow.API.DTOs.TransacaoDTOs.CreateTransacaoDTO)">
+            <summary>
+            Adicionar transação ao banco de dados
+            </summary>
+            <param name="transacaoDTO"></param>
+            <returns>IActionResult</returns>
+            <Response code="201">Caso a insersão seja feita com sucesso</Response>
+        </member>
+    </members>
+</doc>
