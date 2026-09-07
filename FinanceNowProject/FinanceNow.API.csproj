@@ -11,23 +11,25 @@
 	</PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="15.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.10" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10" />
-    <PackageReference Include="Microsoft.Build" Version="17.14.28" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+    <PackageReference Include="AutoMapper" Version="16.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
+    <PackageReference Include="Microsoft.Build" Version="18.9.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.11">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.11">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="9.0.6" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="9.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
+    <!-- Override the vulnerable NuGet client brought by CodeGeneration.Design (GHSA-g4vj-cjjj-v7hg). -->
+    <PackageReference Include="NuGet.Protocol" Version="7.9.0" PrivateAssets="all" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.2.3" />
   </ItemGroup>
 
   <ItemGroup>

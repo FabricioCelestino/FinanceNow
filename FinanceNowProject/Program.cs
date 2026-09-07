@@ -5,7 +5,7 @@ using FinanceNow.Modelos.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 using System.Globalization;
 using System.Reflection;
 
@@ -49,18 +49,10 @@ builder.Services.AddSwaggerGen(options =>
         Description = "Digite 'Bearer' seguido de um espaço e depois seu token.\n\nExemplo: **Bearer eyJhbGciOiJIUzI1NiIsInR5cCI...**"
     });
 
-    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    options.AddSecurityRequirement(document => new OpenApiSecurityRequirement
     {
         {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] {}
+            new OpenApiSecuritySchemeReference("Bearer", document), new List<string>()
         }
     });
 
