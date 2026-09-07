@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dk84wpItVMc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabri\\source\\repos\\FinanceNowProject\\FinanceNow.Blazor\\FinanceNow.Blazor\\FinanceNow.Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabri\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\9.0.1\\microsoft.aspnetcore.components.webassembly.server.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

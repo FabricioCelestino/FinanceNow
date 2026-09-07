@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceNow.Data", "FinanceN
 		{C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A} = {C958C944-ADDC-4CE8-99B3-FF8E7FC00F9A}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceNow.Web", "FinanceNow.Web\FinanceNow.Web.csproj", "{470BDF35-9287-447E-8816-97793F55FD91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,8 +36,15 @@ Global
 		{982C743F-24BA-4F3A-8449-2713D3DC0732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{982C743F-24BA-4F3A-8449-2713D3DC0732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{982C743F-24BA-4F3A-8449-2713D3DC0732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470BDF35-9287-447E-8816-97793F55FD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470BDF35-9287-447E-8816-97793F55FD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470BDF35-9287-447E-8816-97793F55FD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470BDF35-9287-447E-8816-97793F55FD91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A68E4B-2CB6-4E77-BD59-F8B2FFC21866}
 	EndGlobalSection
 EndGlobal

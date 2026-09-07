@@ -10,3 +10,4 @@ C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Modelos\obj\Debug\net9.
 C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Modelos\obj\Debug\net9.0\refint\FinanceNow.Modelos.dll
 C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Modelos\obj\Debug\net9.0\FinanceNow.Modelos.pdb
 C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Modelos\obj\Debug\net9.0\ref\FinanceNow.Modelos.dll
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Modelos\obj\Debug\net9.0\FinanceNow.Modelos.csproj.AssemblyReference.cache

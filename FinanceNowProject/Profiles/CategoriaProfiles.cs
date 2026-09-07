@@ -1,16 +1,16 @@
 ﻿using AutoMapper;
 using FinanceNow.API.DTOs.CategoriaDTOs;
 using FinanceNow.Modelos.Models;
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-namespace FinanceNow.API.Profiles
+namespace FinanceNow.API.Profiles;
+
+internal class CategoriaProfiles : Profile
 {
-    public class CategoriaProfiles : Profile
+    public CategoriaProfiles()
     {
-        public CategoriaProfiles()
-        {
-            CreateMap<Categoria, ReadCategoriaDTO>();
-            CreateMap<CreateCategoriaDTO, Categoria>();
-            CreateMap<UpdateCategoriaDTO, Categoria>();
-        }
+        CreateMap<Categoria, ReadCategoriaDto>();
+        CreateMap<CreateCategoriaDto, Categoria>();
+        CreateMap<UpdateCategoriaDto, Categoria>();
     }
 }

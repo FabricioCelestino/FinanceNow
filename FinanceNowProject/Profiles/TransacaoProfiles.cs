@@ -2,17 +2,23 @@
 using FinanceNow.API.DTOs.TransacaoDTOs;
 using FinanceNow.Modelos.Models;
 
-namespace FinanceNow.API.Profiles
+namespace FinanceNow.API.Profiles;
+
+/// <summary>
+/// 
+/// </summary>
+public class TransacaoProfiles : Profile
 {
-    public class TransacaoProfiles : Profile
+    /// <summary>
+    /// 
+    /// </summary>
+    public TransacaoProfiles()
     {
-        public TransacaoProfiles()
-        {
-            CreateMap<CreateTransacaoDTO, Transacao>();
-            CreateMap<UpdateTransacaoDTO, Transacao>();
-            CreateMap<Transacao, ReadTransacaoDTO>().ForMember(readTransacaoDTO => readTransacaoDTO.ReadCategoriaDTO
+        CreateMap<CreateTransacaoDto, Transacao>();
+        CreateMap<UpdateTransacaoDto, Transacao>();
+            
+        CreateMap<Transacao, ReadTransacaoDto>().ForMember(readTransacaoDto => readTransacaoDto.Categoria
             , opt => opt.MapFrom(transacao => transacao.Categoria));
                 
-        }
     }
 }

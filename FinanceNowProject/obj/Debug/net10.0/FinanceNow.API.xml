@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinanceNow.API</name>
+    </assembly>
+    <members>
+        <member name="T:FinanceNow.API.Controllers.CategoriaController">
+            <summary>
+            </summary>
+            <param name="context"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.#ctor(FinanceNow.Data.DataBase.Context,AutoMapper.IMapper)">
+            <summary>
+            </summary>
+            <param name="context"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.GetByTipoAsync(System.String)">
+            <summary>
+                obter todas as categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.GetByIdAsync(System.Nullable{System.Int32})">
+            <summary>
+                obter categoria por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.CreateAsync(FinanceNow.API.DTOs.CategoriaDTOs.CreateCategoriaDto)">
+            <summary>
+                Adicionar categoria ao banco de dados
+            </summary>
+            <param name="categoriaDto"></param>
+            <returns>IActionResult</returns>
+            <Response code="201">Caso a inserção seja feita com sucesso</Response>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.DeletarAsync(System.Nullable{System.Int32})">
+            <summary>
+                Deletar categoria do banco de dados
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.CategoriaController.EditarAsync(System.Nullable{System.Int32},FinanceNow.API.DTOs.CategoriaDTOs.UpdateCategoriaDto)">
+            <summary>
+            Atualizar categoria
+            </summary>
+            <param name="id"></param>
+            <param name="categoriaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinanceNow.API.Controllers.TransacaoController">
+            <summary>
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacaoController.#ctor(AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger{FinanceNow.API.Controllers.TransacaoController},FinanceNow.API.Services.ITransacaoService)">
+            <summary>
+            </summary>
+            <param name="repository"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacaoController.Create(FinanceNow.API.DTOs.TransacaoDTOs.CreateTransacaoDto,System.Threading.CancellationToken)">
+            <summary>
+                Adicionar transação ao banco de dados
+            </summary>
+            <param name="transacaoDto"></param>
+            <returns>IActionResult</returns>
+            <Response code="201">Caso a inserção seja feita com sucesso</Response>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacaoController.Read(System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <summary>
+                Detalhes da transação
+            </summary>
+            <param name="id"></param>
+            <returns>IActionResult</returns>
+            <Response code="200">Caso a inserção seja feita com sucesso</Response>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacaoController.Update(FinanceNow.API.DTOs.TransacaoDTOs.UpdateTransacaoDto,System.Threading.CancellationToken)">
+            <summary>
+            Atualizar transação 
+            </summary>
+            <param name="id"></param>
+            <param name="transacaoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacaoController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Exclui uma transação pelo Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinanceNow.API.Controllers.TransacaoController.GetByPeriodo(System.UInt16,System.Byte,System.String,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <param name="ano"></param>
+            <param name="mes"></param>
+            <param name="tipo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinanceNow.API.DTOs.CategoriaDTOs.ReadCategoriaDto">
+            <summary>
+            
+            </summary>
+            <param name="Nome"></param>
+        </member>
+        <member name="M:FinanceNow.API.DTOs.CategoriaDTOs.ReadCategoriaDto.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Nome"></param>
+        </member>
+        <member name="P:FinanceNow.API.DTOs.CategoriaDTOs.ReadCategoriaDto.Nome">
+            <summary></summary>
+        </member>
+        <member name="M:FinanceNow.API.DTOs.CategoriaDTOs.ReadCategoriaDto.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="Descricao"></param>
+            <param name="Valor"></param>
+            <param name="Tipo"></param>
+            <param name="DataDeVencimento"></param>
+        </member>
+        <member name="M:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.#ctor(System.Int32,System.String,System.Double,System.String,System.DateOnly,FinanceNow.API.DTOs.CategoriaDTOs.ReadCategoriaDto)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="Descricao"></param>
+            <param name="Valor"></param>
+            <param name="Tipo"></param>
+            <param name="DataDeVencimento"></param>
+        </member>
+        <member name="P:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.Id">
+            <summary></summary>
+        </member>
+        <member name="P:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.Descricao">
+            <summary></summary>
+        </member>
+        <member name="P:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.Valor">
+            <summary></summary>
+        </member>
+        <member name="P:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.Tipo">
+            <summary></summary>
+        </member>
+        <member name="P:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.DataDeVencimento">
+            <summary></summary>
+        </member>
+        <member name="M:FinanceNow.API.DTOs.TransacaoDTOs.ReadTransacaoDto.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FinanceNow.API.DTOs.TransacaoDTOs.UpdateTransacaoDto">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FinanceNow.API.DTOs.TransacaoDTOs.UpdateTransacaoDto.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:FinanceNow.API.Profiles.TransacaoProfiles">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FinanceNow.API.Profiles.TransacaoProfiles.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>

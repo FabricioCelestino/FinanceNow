@@ -1,0 +1,4 @@
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Blazor\FinanceNow.Blazor.Client\wwwroot\appsettings.json
+C:\Users\fabri\source\repos\FinanceNowProject\FinanceNow.Blazor\FinanceNow.Blazor.Client\wwwroot\appsettings.Development.json
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json

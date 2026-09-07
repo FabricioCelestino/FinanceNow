@@ -1,0 +1,295 @@
+﻿@page "/Receita"
+@using Azure
+@using FinanceNow.FrontEnd.Client.Modelos
+@using FinanceNow.FrontEnd.Client.Request
+@using FinanceNow.FrontEnd.Client.Response
+@using FinanceNow.FrontEnd.Client.Services
+@inject ApiService ApiService
+@inject ApiResponse<Transacao> Response
+@rendermode InteractiveWebAssembly
+@attribute [StreamRendering]
+
+
+<button class="btn btn-primary" @onclick="AddTransacao">Nova Receita</button>
+
+<div class="d-flex flex-row align-items-center">
+    <input min="2000" type="number" @bind="AnoSelecionadoChanged" />
+
+    <div class="meses-container">
+        @foreach (var mes in _meses)
+        {
+            <button class="btn btn-primary" @onclick="async () => await SelecionarMesAsync(mes.Key)">
+                @mes.Value
+            </button>
+        }
+    </div>
+</div>
+
+@if (_transacoes.Count == 0)
+{
+    <p>Não há receita registrada</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Vencimento</th>
+                <th>Tipo</th>
+                <th>Categoria</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in _transacoes)
+            {
+                <tr class="table-active">
+                    <td>@t.Descricao</td>
+                    <td>@t.Valor.ToString("C")</td>
+                    <td>@t.DataDeVencimento.ToShortDateString()</td>
+                    <td>@t.Tipo</td>
+                    <td>@t.Categoria!.Nome</td>
+                    <td>
+                        <button class="btn btn-link" @onclick="() => EditarTransacao(t.Id)">Editar</button>
+                        <button class="btn btn-link" @onclick="() => OpenModalExcluir(t)">Excluir</button>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@if (_showModalExclusao)
+{
+    <div class="modal fade show" style="display: block;">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div style="justify-content:center" class="modal-header">
+                    <h5 class="modal-title">Confirmar Exclusão</h5>
+
+                </div>
+                <div style="text-align:center" class="modal-body">
+                    <h6>Tem certeza de que excluir</h6>
+
+                </div>
+                <div style="justify-content:space-between" class="modal-footer">
+                    <button type="button" class="btn btn-segundary" @onclick="FecharModalExclusao">Cancelar</button>
+                    <button class="btn btn-danger" @onclick="Excluir">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-backdrop fade show"></div>
+}
+
+
+@if (_showModal)
+{
+    <!-- Div principal do modal -->
+    <div class="modal fade show" style="display: block;" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <EditForm Model="_transacao" OnValidSubmit="Salvar">
+                    <DataAnnotationsValidator />
+
+                    <div class="modal-header bg-primary text-white">
+                        <h5 class="modal-title">@(_editando ? "Editar Transação" : "Incluindo nova receita")</h5>
+                        <h5 style="margin-left: 5px" class="modal-title">@(_editando ? DescricaoTransacao : string.Empty)</h5>
+                        <button type="button" class="btn-close" @onclick="CancelarEdicao"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <ValidationMessage For="() => _transacao.Descricao" />
+                            <label for="descricao" class="form-label">Descrição</label>
+                            <input type="text" required placeholder="Informe a descrição da receita" id="descricao" class="form-control" @bind="_transacao.Descricao" />
+                        </div>
+                        <div class="mb-3">
+                            <ValidationMessage For="() => _transacao.Valor" />
+                            <label for="valor" class="form-label">Valor</label>
+                            <input type="number" id="valor" class="form-control" @bind="_transacao.Valor" step="0.01" />
+                        </div>
+                        <div class="mb-3">
+                            <ValidationMessage For="() => _transacao.DataDeVencimento" />
+                            <label for="data" class="form-label">Data de Vencimento</label>
+                            <input type="date" id="data" class="form-control" @bind="_transacao.DataDeVencimento" />
+                        </div>
+                        <div class="mb-3">
+                            <ValidationMessage For="() => _transacao.CategoriaId" />
+                            <label for="categoria" class="form-label">Categoria</label>
+                            <select class="form-select" id="categoria" @bind="_transacao.CategoriaId">
+                                <option selected="selected" disabled="disabled">Selecione a categoria de receita</option>
+                                @foreach (var categoria in _categorias)
+                                {
+                                    <option value="@categoria.Id">@categoria.Nome</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" @onclick="CancelarEdicao">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Salvar</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fundo semitransparente do modal -->
+    <div class="modal-backdrop fade show"></div>
+}
+
+@code {
+    private bool _showModalExclusao;
+    private string ModalTitle => "Editar Transação";
+    private ICollection<Categoria> _categorias = new List<Categoria>();
+    private int _mesSelecionado = DateTime.Now.Month;
+    private int _anoSelecionado = DateTime.Now.Year;
+    private ICollection<Transacao> _transacoes = new List<Transacao>();
+    private RequestTransacao? _transacao;
+    private bool _showModal;
+    private bool _editando;
+    private string DescricaoTransacao { get; set; } = string.Empty;
+    private Transacao? _transacaoParaExcluir;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await BuscarTransacoesAsync();
+        await BuscarCategoriasAsync();
+    }
+
+    private async Task BuscarTransacoesAsync()
+    {
+        Response = await ApiService.GetAsync<ApiResponse<Transacao>>($"Transacoes/{_anoSelecionado}/{_mesSelecionado}/Receita");
+
+        _transacoes = Response?.Values?.Count > 0 ? Response.Values : new List<Transacao>();
+        StateHasChanged();
+    }
+
+    private async Task SelecionarMesAsync(int mes)
+    {
+        _mesSelecionado = mes;
+        await BuscarTransacoesAsync();
+    }
+
+
+    private readonly List<KeyValuePair<int, string>> _meses =
+    [
+        new(1, "Janeiro"), new(2, "Fevereiro"), new(3, "Março"),
+    new(4, "Abril"), new(5, "Maio"), new(6, "Junho"),
+    new(7, "Julho"), new(8, "Agosto"), new(9, "Setembro"),
+    new(10, "Outubro"), new(11, "Novembro"), new(12, "Dezembro")
+    ];
+
+    public int AnoSelecionadoChanged
+    {
+        get => _anoSelecionado;
+        set
+        {
+            if (_anoSelecionado == value) return;
+            _anoSelecionado = value;
+            _ = BuscarTransacoesAsync();
+        }
+    }
+
+
+    private void EditarTransacao(int? id)
+    {
+        if (id is null) return;
+        var transacao = _transacoes?.FirstOrDefault(t => t.Id == id);
+        if (transacao is null) return;
+        ;
+
+        _transacao = new RequestTransacao
+            {
+                Id = transacao.Id,
+                Descricao = transacao.Descricao,
+                Valor = transacao.Valor,
+                Tipo = 1,
+                DataDeVencimento = transacao.DataDeVencimento,
+                CategoriaId = transacao.Categoria!.Id
+            };
+
+        DescricaoTransacao = transacao.Descricao ?? string.Empty;
+        _editando = true;
+        _showModal = true;
+    }
+
+    private async Task Salvar()
+    {
+        if (_editando)
+        {
+            var response = await ApiService.PutAsync($"Transacoes/{_transacao.Id}", _transacao);
+            if (!response.IsSuccessStatusCode) return;
+        }
+        else
+        {
+            var response = await ApiService.PostAsync("Transacoes", _transacao);
+        }
+
+        _showModal = false;
+        await BuscarTransacoesAsync();
+    }
+
+    private void OpenModalExcluir(Transacao transacao)
+    {
+        _showModalExclusao = true;
+        _transacaoParaExcluir = transacao;
+    }
+
+    private void FecharModalExclusao()
+    {
+        _showModalExclusao = false;
+        _transacaoParaExcluir = null;
+    }
+
+    private void CancelarEdicao()
+    {
+        _showModal = false;
+    }
+
+    public async Task BuscarCategoriasAsync()
+    {
+        var categorias = await ApiService.GetAsync<ApiResponse<Categoria>>("Categoria/Tipo/Receita");
+        _categorias = categorias?.Values?.Count > 0 ? categorias.Values : new List<Categoria>();
+        StateHasChanged();
+    }
+
+
+    private void AddTransacao()
+    {
+        _transacao = new RequestTransacao
+            {
+                Tipo = 1,
+                DataDeVencimento = DateOnly.FromDateTime(DateTime.Now)
+            };
+
+        _showModal = true;
+    }
+
+
+    private async Task Excluir()
+    {
+        if (_transacaoParaExcluir != null)
+        {
+            var response = await ApiService.DeleteAsync($"Transacoes/{_transacaoParaExcluir.Id}");
+            if (response.IsSuccessStatusCode)
+            {
+                _showModalExclusao = false;
+                await BuscarTransacoesAsync();
+            }
+            else
+            {
+                Console.WriteLine("Não foi possível excluir a transação");
+            }
+
+            _transacaoParaExcluir = null;
+        }
+    }
+
+}

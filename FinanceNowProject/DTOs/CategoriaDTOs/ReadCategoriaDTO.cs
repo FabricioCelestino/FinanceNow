@@ -1,9 +1,15 @@
-﻿namespace FinanceNow.API.DTOs.CategoriaDTOs
+﻿namespace FinanceNow.API.DTOs.CategoriaDTOs;
+
+/// <summary>
+/// 
+/// </summary>
+/// <param name="Nome"></param>
+public record ReadCategoriaDto(int Id, string Nome, string Tipo)
 {
-    public record ReadCategoriaDTO(string Name)
+    /// <summary>
+    /// 
+    /// </summary>
+    public ReadCategoriaDto() : this(0, string.Empty, string.Empty)
     {
-        public ReadCategoriaDTO() : this(string.Empty)
-        {
-        }
     }
 }

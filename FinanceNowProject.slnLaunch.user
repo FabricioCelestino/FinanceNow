@@ -1,6 +1,15 @@
 [
   {
     "Name": "New Profile",
-    "Projects": []
+    "Projects": [
+      {
+        "Path": "FinanceNowProject\\FinanceNow.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FinanceNow.Blazor\\FinanceNow.Blazor\\FinanceNow.Blazor.csproj",
+        "Action": "Start"
+      }
+    ]
   }
 ]

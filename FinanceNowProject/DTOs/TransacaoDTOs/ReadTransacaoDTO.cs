@@ -1,11 +1,23 @@
 ﻿using FinanceNow.API.DTOs.CategoriaDTOs;
 
-namespace FinanceNow.API.DTOs.TransacaoDTOs
+namespace FinanceNow.API.DTOs.TransacaoDTOs;
+
+/// <summary>
+/// 
+/// </summary>
+/// <param name="Id"></param>
+/// <param name="Descricao"></param>
+/// <param name="Valor"></param>
+/// <param name="Tipo"></param>
+/// <param name="DataDeVencimento"></param>
+public record ReadTransacaoDto(int Id,string Descricao, double Valor, string Tipo, 
+    DateOnly DataDeVencimento, ReadCategoriaDto Categoria)
 {
-    public record ReadTransacaoDTO(string Descricao, double Valor, DateOnly DataDeVencimento, ReadCategoriaDTO ReadCategoriaDTO)
+    /// <summary>
+    /// 
+    /// </summary>
+    public ReadTransacaoDto() : this(0,string.Empty, 0, string.Empty, 
+        default, new ReadCategoriaDto())
     {
-        public ReadTransacaoDTO() : this(string.Empty, 0, default, new ReadCategoriaDTO())
-        {
-        }
     }
 }
