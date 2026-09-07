@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinanceNow.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+637e22b3e0e05b5f9f434248b0fa10332f7987b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a1a82e205e47d8de1190324b8948bc3fbf7d2be")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinanceNow.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinanceNow.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
