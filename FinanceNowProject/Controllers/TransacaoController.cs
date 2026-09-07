@@ -3,6 +3,7 @@ using FinanceNow.API.DTOs.TransacaoDTOs;
 using FinanceNow.Modelos.Models.Enums;
 using Microsoft.AspNetCore.Mvc;
 using FinanceNow.API.Services;
+using System.ComponentModel.DataAnnotations;
 
 namespace FinanceNow.API.Controllers;
 
@@ -96,15 +97,15 @@ public class TransacaoController(IMapper mapper, ILogger<TransacaoController> lo
     [ProducesResponseType(typeof(IReadOnlyCollection<ReadTransacaoDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult> GetByPeriodo(
-        [FromQuery] ushort ano,
-        [FromQuery] byte mes,
+        [FromQuery, Range(2000, 3000, ErrorMessage = "O ano deve estar entre 2000 e 3000.")] ushort ano,
+        [FromQuery, Range(1, 12, ErrorMessage = "O mês deve estar entre 1 e 12.")] byte mes,
         [FromQuery] string tipo,
         CancellationToken ct)
     {
 
         if (!Enum.TryParse<TipoDeTransacao>(tipo, true, out var tipoDeTransacao))
         {
-            Problem(
+            return Problem(
                 title: "Tipo de transação inválido",
                 detail: "Use 'Receita' ou 'Despesa' como tipo de transação.",
                 statusCode: StatusCodes.Status400BadRequest);

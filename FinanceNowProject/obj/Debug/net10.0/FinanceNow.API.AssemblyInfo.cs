@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinanceNow.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a426e0b5e9dee2e30ff7ef75aa02a0fccf7cc2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44a81a74949864076f9c9f15a4420a3097f7fd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinanceNow.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinanceNow.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
